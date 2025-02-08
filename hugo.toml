@@ -1,0 +1,28 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Paulina A. Kisselev, PhD.'
+theme = 'paulina'
+[menus]
+    [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+    [[menus.main]]
+    name = 'About Me'
+    pageRef = 'about-me'
+    weight = 20
+
+
+    [[menus.main]]
+    name = 'Blog'
+    pageRef = 'posts'
+    weight = 30
+
+    [[menus.main]]
+    name = 'Contact Me'
+    pageRef = 'contact-me'
+    weight = 40
+
+[markup.goldmark.renderer]
+unsafe= true
