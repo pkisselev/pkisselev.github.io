@@ -6,26 +6,13 @@
   {{ partial "head.html" . }}
 </head>
 
-<body class="home page-template-default page page-id-2 custom-background full-width custom-font-enabled single-author">
+<body>
   {{ partial "header.html" . }}
-  <div id="page" class="hfeed  mainsite">
-    <div id="main" class="wrapper">
-      <div id="primary" class="site-content">
-        <div id="content" role="main">
-          <article id="post-2" class="post-2 page type-page status-publish hentry">
-            <header class="entry-header">
-              <h1 class="entry-title">
-                  {{ .Title}}
-              </h1>
-            </header>
-            <div class="entry-content">
-            {{ block "main" . }}{{ end }}
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div class="container my-5 shadow">
+    <h1 class="mb-2">{{ .Title}}</h1>
 
+    {{ block "main" . }}{{ end }}
+  </div>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38346271-1"></script>
   <script>
@@ -35,9 +22,6 @@
 
     gtag('config', 'UA-38346271-1');
   </script>
-
-  <script type='text/javascript' src='/assets/navigation.js?ver=1.0'></script>
-  <script type='text/javascript' src='/assets/wp-embed.mineff2.js?ver=4.7.9'></script>
 </body>
 
 </html>

@@ -3,7 +3,7 @@ title = 'Welcome'
 date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
-<div class="alignright somepadding" style="width: 40%; padding-left: 80px; text-align: center;">
+<div class="float-md-end text-center fs-6">
     <img src='paulina4.jpg'><br/>
     Paulina A. Kisselev, PhD  <br/>
     19105 36th Ave. W.  <br/>
@@ -11,7 +11,9 @@ draft = false
     Lynnwood, WA 98036  <br/>
     (425) 347-7275 Ext. 106  
 </div>
-If you are reading this, you are probably experiencing some discomfort in your life and wondering, “Can this person help me? Can I trust her? Am I the only one with this problem?” and dozens of other questions. I understand your worries and that is why I encourage you to call and find out whether working together would be a good fit.
+<p class="mb-3">If you are reading this, you are probably experiencing some discomfort in your life and wondering, “Can this person help me? Can I trust her? Am I the only one with this problem?” and dozens of other questions. I understand your worries and that is why I encourage you to call and find out whether working together would be a good fit.  
+</p>
+
 
 # Therapy
 
